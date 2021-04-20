@@ -18,9 +18,7 @@ nav: true
         <p><b>Research Scientist</b> <br>
         Salesforce Research <br>
         Fall 2020 - Current <br>
-         skjdf;sajf;skjdf
-         skdhfsa;kljfsa;lkdflkj <br>
-         s;khdfsak;jas;kja;lkdjsf <br>
+         📝 blah blah
          </p>
       </div>
     </div>
