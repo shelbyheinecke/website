@@ -13,10 +13,13 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+<b>Introduction</b> <br>
 
 I'm Shelby. I'm originally from Maryland 🦀 and I now live in Silicon Valley. I recently finished my PhD focusing on machine learning at UIC, where I was advised by [Lev Reyzin](http://levreyzin.com){:target="\_blank"}. I am currently a Research Scientist 👩🏽‍🔬 at [Salesforce Research](http://einstein.ai){:target="\_blank"} working on both fundamental research and product applications.
 
-My Education:
+<b>Research Interests</b>
+
+<b>My Education</b>
 
 <p><img style="float: left;" src="https://upload.wikimedia.org/wikipedia/commons/9/96/University_of_Illinois_at_Chicago_circle_logo.svg" width="77" height="40" />&nbsp;Ph.D. in Mathematics <br />&nbsp;University of Illinois at Chicago</p>
 

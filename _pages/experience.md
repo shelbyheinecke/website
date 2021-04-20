@@ -34,7 +34,7 @@ nav: true
       IBM Research <br>
       Summer 2019<br>
 
-        📝 I learned how to use PyTorch.
+        📝 blah blah
         </p>
     </div>
     </div>
@@ -48,7 +48,7 @@ nav: true
             Intel <br>
       Summer 2017 - Spring 2019 <br>
 
-     📝 I learned how to use PyTorch.
+     📝 blah blah
         </p>
     </div>
     </div>

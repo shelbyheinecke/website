@@ -6,12 +6,12 @@ description: My cat is named Chipotle! She's the best 😊.
 nav: true
 ---
 
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col">
-      <img src="../assets/img/chipotle1_copy.jpg" width="70%" class="rounded float-right"/>
+      <img src="../assets/img/chipotle1_copy.jpg" width="70%" height="auto" class="rounded float-right"/>
     </div>
     <div class="col">
-      <img src="../assets/img/chipotle2.jpg" width="70%" class="rounded float-left"/>
+      <img src="../assets/img/chipotle2.jpg" width="70%" height="auto" class="rounded float-left"/>
     </div>
 </div>
