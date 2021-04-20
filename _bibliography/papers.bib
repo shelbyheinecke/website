@@ -1,70 +1,37 @@
 ---
 ---
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@article{Heinecke_Reyzin_2019, title={Crowdsourced PAC Learning under Classification Noise}, volume={7}, url={https://ojs.aaai.org/index.php/HCOMP/article/view/5279}, abstract={In this paper, we analyze PAC learnability from labels produced by crowdsourcing. In our setting, unlabeled examples are drawn from a distribution and labels are crowdsourced from workers who operate under classification noise, each with their own noise parameter. We develop an end-to-end crowdsourced PAC learning algorithm that takes unlabeled data points as input and outputs a trained classifier. Our three-step algorithm incorporates majority voting, pure-exploration bandits, and noisy-PAC learning. We prove several guarantees on the number of tasks labeled by workers for PAC learning in this setting and show that our algorithm improves upon the baseline by reducing the total number of tasks given to workers. We demonstrate the robustness of our algorithm by exploring its application to additional realistic crowdsourcing settings.}, number={1}, journal={Proceedings of the AAAI Conference on Human Computation and Crowdsourcing,}, author={Shelby Heinecke and Lev Reyzin}, year={2019}, month={Oct.}, pages={41-49},
+arxiv={1902.04629},
+abbr={AAAI-HCOMP}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
-}
+@misc{heinecke_2020, title={Resilient Structures and Robust Machine Learning Algorithms}, url={https://indigo.uic.edu/articles/thesis/Resilient_Structures_and_Robust_Machine_Learning_Algorithms/13474959/1}, DOI={10.25417/uic.13474959.v1}, abstract={Networks and learning algorithms are key themes in artificial intelligence (AI). Networks can be used to model the connections of a vast community of internet-of-things (IoT) devices, the internet, and distributed databases, among other important computing contexts for AI. Learning algorithms, which generate trained models, can be strategically designed to learn from a variety of data-rich networks, such as sensor networks, device networks, or even networks of humans working on crowdsourcing tasks. In real-world settings, noise generated from sources such as device inaccuracy or human error are unavoidable. Likewise, attacks in real-world networks, such as the injection of malware, are inevitable due to their ever-evolving sophistication. In this thesis, we study the intrusions of noise and malicious attacks on networks and learning from networks. We devise structural and algorithmic solutions for mitigating the effects of these unwanted intrusions. We first we consider viral propagation under the independent cascade model of infection spread on half-regular bipartite networks and characterize the most resilient structures. Then, we study learning and generalizing from a network of crowd workers, where crowd workers provide erroneous labels to unlabelled data at fixed, unknown error rates. In this setting, we develop a three-step probably approximately correct (PAC) algorithm that incorporates majority voting, pure-exploration bandits, and noisy-PAC learning and demonstrate our algorithm?s improvement over baseline approaches. Finally, we study learning from a network of participants, each with their own distribution on the unlabelled data in the presence of noise. We develop collaborative PAC algorithms robust to classification noise and prove sample complexity bounds. We also study the communication complexity of collaborative PAC learning, with and without classification noise, and develop communication efficient algorithms in both settings.}, publisher={University of Illinois at Chicago}, author={Heinecke, Shelby Lynn}, year={2020}, month={Aug},
+html={https://indigo.uic.edu/articles/thesis/Resilient_Structures_and_Robust_Machine_Learning_Algorithms/13474959}} 
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
-}
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@INPROCEEDINGS{8636073,
+  author={Shelby Heinecke and Will Perkins and Lev Reyzin},
+  booktitle={2018 56th Annual Allerton Conference on Communication, Control, and Computing (Allerton),}, 
+  title={On the Resilience of Bipartite Networks}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={72-77},
+  doi={10.1109/ALLERTON.2018.8636073},
+  arxiv={1306.5720},
+   abbr={Allerton},
+   abstract={Motivated by problems modeling the spread of infections in networks, in this paper we explore which bipartite graphs are most resilient to widespread infections under various parameter settings. Namely, we study bipartite networks with a requirement of a minimum degree d on one side under an independent infection, independent transmission model. We completely characterize the optimal graphs in the case d=1, which already produces non-trivial behavior, and we give extremal results for the more general cases. We show that in the case d=2, surprisingly, the optimally resilient set of graphs includes a graph that is not one of the two "extremes" found in the case d=1.
+Then, we briefly examine the case where we force a connectivity requirement instead of a one-sided degree requirement and again, we find that the set of the most resilient graphs contains more than the two "extremes." We also show that determining the subgraph of an arbitrary bipartite graph most resilient to infection is NP-hard for any one-sided minimal degree d >=1.}
+  }
+  
+  @misc{blum2020communicationaware,
+      title={Communication-Aware Collaborative Learning}, 
+      author={Avrim Blum and Shelby Heinecke and Lev Reyzin},
+      year={2020},
+      eprint={2012.10569},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      arxiv={2012.10569},
+      abstract={Algorithms for noiseless collaborative PAC learning have been analyzed and optimized in recent years with respect to sample complexity. In this paper, we study collaborative PAC learning with the goal of reducing communication cost at essentially no penalty to the sample complexity. We develop communication efficient collaborative PAC learning algorithms using distributed boosting. We then consider the communication cost of collaborative learning in the presence of classification noise. As an intermediate step, we show how collaborative PAC learning algorithms can be adapted to handle classification noise. With this insight, we develop communication efficient algorithms for collaborative PAC learning robust to classification noise.},
+        abbr={AAAI}
 }
