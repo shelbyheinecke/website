@@ -7,7 +7,15 @@
     {% if site.data.venues[entry.abbr] %}
     <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
     {% else %}
-    <abbr class="badge">{{entry.abbr}}</abbr>
+      {% if entry.abbr == "In Preparation" %}
+        <abbr class="badge badge-light">{{entry.abbr}}</abbr>
+      {% else %}
+        {% if entry.abbr == "Thesis" %}
+          <abbr class="badge badge-secondary">{{entry.abbr}}</abbr>
+        {% else %}
+        <abbr class="badge">{{entry.abbr}}</abbr>
+        {% endif %}
+      {% endif %}
     {% endif %}
   {% endif %}
   </div>
