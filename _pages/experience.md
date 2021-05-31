@@ -10,7 +10,7 @@ nav: true
   <div class="row">
     <div class="col">
         <a href = "http://einstein.ai">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Salesforce.com_logo.svg/512px-Salesforce.com_logo.svg.png" class="rounded float-right" width="50%" style = "padding: 10px; display: flex"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Salesforce.com_logo.svg/512px-Salesforce.com_logo.svg.png" class="rounded float-right" width="50%" style = "padding: 10px; display: flex;" id="mobile"/>
         </a>
     </div>
     <div class="col">
@@ -25,7 +25,7 @@ nav: true
 
     <div class="w-100"></div>
     <div class="col">
-    <img src="https://cdn.freebiesupply.com/images/large/2x/ibm-logo-transparent.png" width="50%" class="rounded float-right" style = "padding: 10px; display: flex"/>
+    <img src="https://cdn.freebiesupply.com/images/large/2x/ibm-logo-transparent.png" width="50%" class="rounded float-right" style = "padding: 10px; display: flex" id="mobile"/>
     </div>
     <div class="col">
     <div class = "floating">
@@ -39,7 +39,7 @@ nav: true
 
     <div class="w-100"></div>
     <div class="col">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Intel_logo_%282020%2C_dark_blue%29.svg" width="50%" class="rounded float-right" style = "padding: 10px; display: flex"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Intel_logo_%282020%2C_dark_blue%29.svg" width="50%" class="rounded float-right" style = "padding: 10px; display: flex" id="mobile"/>
     </div>
     <div class="col">
     <div class = "floating">
@@ -53,7 +53,7 @@ nav: true
 
     <div class="w-100"></div>
     <div class="col">
-    <img src="../assets/img/teaching.png" width="50%" height="auto" class="rounded float-right" style = "padding: 10px; display: flex"/>
+    <img src="../assets/img/teaching.png" width="50%" height="auto" class="rounded float-right" style = "padding: 10px; display: flex" id="mobile"/>
     </div>
     <div class="col">
     <div class = "floating">
@@ -66,7 +66,7 @@ nav: true
 
     <div class="w-100"></div>
     <div class="col">
-    <img src="../assets/img/mitre.png" width="50%" height="auto" class="rounded float-right" style = "padding: 10px; display: flex"/>
+    <img src="../assets/img/mitre.png" width="50%" height="auto" class="rounded float-right" style = "padding: 10px; display: flex" id="mobile"/>
     </div>
     <div class="col">
     <div class = "floating">
@@ -78,7 +78,7 @@ nav: true
 
     <div class="w-100"></div>
     <div class="col">
-    <img src="../assets/img/reu.png" width="50%" height="auto" class="rounded float-right" style = "padding: 10px; display: flex"/>
+    <img src="../assets/img/reu.png" width="50%" height="auto" class="rounded float-right" style = "padding: 10px; display: flex" id="mobile"/>
     </div>
     <div class="col">
     <div class = "floating">
@@ -94,7 +94,7 @@ nav: true
   <div class="row">
     <div class="col">
         <a href = "http://devcolor.org">
-        <img src="../assets/img/devcolor.png" class="rounded float-right" width="60%" style = "padding: 10px; display: flex"/>
+        <img src="../assets/img/devcolor.png" class="rounded float-right" width="60%" style = "padding: 10px; display: flex" id="mobile"/>
         </a>
     </div>
     <div class="col">
